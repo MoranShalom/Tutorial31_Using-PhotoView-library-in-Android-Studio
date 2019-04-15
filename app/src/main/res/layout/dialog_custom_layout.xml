@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 16- Now you need to work on Android AlertDialog, the AlertDialog will appear
+     on the screen when you try to tap on ImageView (ivIcon).
+     Before you start that, you first need to create another
+     layout file that you will use it later for AlertDialog. -->
+
+    <!-- this file will have a PhotoView that will match the width and height of the screen.-->
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+</RelativeLayout>
